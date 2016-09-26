@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="PCard Statement Import" max_length="40" name="x_ngang_pcard_pcard_statement_import" type="collection">
+        <element attributes="import_attribute_name=3.05811E+11,edge_encryption_enabled=true" label="3.05811E+11" max_length="355" name="u_3_05811e_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="accountNumber" max_length="40" name="u_accountnumber" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="cardHolder" max_length="40" name="u_cardholder" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="companyNumber" max_length="40" name="u_companynumber" type="string"/>
+        <element attributes="import_attribute_name=field_2,edge_encryption_enabled=true" label="field_2" max_length="316" name="u_field_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="masterAccountNumber" max_length="40" name="u_masteraccountnumber" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="postDate" max_length="40" name="u_postdate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="statementDate" max_length="40" name="u_statementdate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="transAmount" max_length="40" name="u_transamount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="transDate" max_length="40" name="u_transdate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="transNumber" max_length="40" name="u_transnumber" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="transType" max_length="40" name="u_transtype" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vendor" max_length="40" name="u_vendor" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="b72855304fcce200e51c9a211310c7a4" sys_domain="global" table="x_ngang_pcard_transactions" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>372855304fcce200e51c9a211310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transaction_number</element>
+            <position>1</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>b72855304fcce200e51c9a211310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transaction_date</element>
+            <position>2</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>3b2855304fcce200e51c9a211310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transaction_amount</element>
+            <position>3</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>bb2855304fcce200e51c9a211310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>4</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>3f2855304fcce200e51c9a211310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>bf2855304fcce200e51c9a211310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>statement_id</element>
+            <position>6</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>332855304fcce200e51c9a211310c7a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>posted_date</element>
+            <position>7</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>b32855304fcce200e51c9a211310c7a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_number</element>
+            <position>8</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>372855304fcce200e51c9a211310c7a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>card_account_number</element>
+            <position>9</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>b72855304fcce200e51c9a211310c7a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_id>3b2855304fcce200e51c9a211310c7a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reconciliation</element>
+            <position>11</position>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-15 15:04:59</sys_created_on>
+            <sys_id>ba1e695113482600b9c4b8b12244b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ngang_pcard_transactions" sys_domain="global" view="Default view">b72855304fcce200e51c9a211310c7a4</sys_ui_section>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-15 15:04:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ngang_pcard_transactions</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-14 00:12:16</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b72855304fcce200e51c9a211310c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ngang_pcard_transactions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PCard" source="x_ngang_pcard">382269b013371200b9c4b8b12244b0f2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PCard">382269b013371200b9c4b8b12244b0f2</sys_scope>
+            <sys_update_name>sys_ui_section_b72855304fcce200e51c9a211310c7a4</sys_update_name>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-14 00:12:16</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

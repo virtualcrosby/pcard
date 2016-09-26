@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Reconciliation" max_length="40" name="x_ngang_pcard_reconciliation" type="collection">
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:global.getNextObjNumberPadded();" display="true" label="Reconciliation Number" max_length="25" name="reconciliation_number" type="string"/>
+    </element>
+</database>

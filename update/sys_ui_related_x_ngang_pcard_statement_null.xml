@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_ngang_pcard_statement" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Statement - Default view" name="x_ngang_pcard_statement" related_list="NULL" sys_domain="global" view="Default view">a231d1bc4f8ce200e51c9a211310c752</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_ngang_pcard_statement_order_crosswalk.transaction_number</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-13 23:41:52</sys_created_on>
+            <sys_id>e631d1bc4f8ce200e51c9a211310c752</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-13 23:41:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Statement - Default view" name="x_ngang_pcard_statement" related_list="NULL" sys_domain="global" view="Default view">a231d1bc4f8ce200e51c9a211310c752</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_ngang_pcard_transactions.statement_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-13 23:41:52</sys_created_on>
+            <sys_id>aa31d1bc4f8ce200e51c9a211310c752</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-13 23:41:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Statement - Default view</calculated_name>
+            <filter/>
+            <name>x_ngang_pcard_statement</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-13 23:41:52</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a231d1bc4f8ce200e51c9a211310c752</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Statement - Default view</sys_name>
+            <sys_package display_value="PCard" source="x_ngang_pcard">382269b013371200b9c4b8b12244b0f2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PCard">382269b013371200b9c4b8b12244b0f2</sys_scope>
+            <sys_update_name>sys_ui_related_x_ngang_pcard_statement_null</sys_update_name>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-13 23:41:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

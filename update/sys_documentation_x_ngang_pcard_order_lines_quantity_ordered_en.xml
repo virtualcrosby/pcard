@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="quantity_ordered" label="Quantity Ordered" language="en" table="x_ngang_pcard_order_lines">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>quantity_ordered</element>
+            <help/>
+            <hint/>
+            <label>Quantity Ordered</label>
+            <language>en</language>
+            <name>x_ngang_pcard_order_lines</name>
+            <plural>Quantity Ordered</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-09 21:35:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c00e00e7133f9200b9c4b8b12244b0a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Quantity Ordered</sys_name>
+            <sys_package display_value="PCard" source="x_ngang_pcard">382269b013371200b9c4b8b12244b0f2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PCard">382269b013371200b9c4b8b12244b0f2</sys_scope>
+            <sys_update_name>sys_documentation_x_ngang_pcard_order_lines_quantity_ordered_en</sys_update_name>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-09 21:35:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

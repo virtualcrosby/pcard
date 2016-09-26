@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Purchase Cards" max_length="40" name="x_ngang_pcard_purchase_cards" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Account Number" max_length="50" name="account_number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Billing Official Company" max_length="32" name="billing_official_company" reference="x_ngang_pcard_billing_official_company" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Cardholder" max_length="32" name="cardholder" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="account_number"/>
+        </index>
+        <index name="index2">
+            <element name="billing_official_company"/>
+        </index>
+        <index name="index3">
+            <element name="cardholder"/>
+        </index>
+    </element>
+</database>

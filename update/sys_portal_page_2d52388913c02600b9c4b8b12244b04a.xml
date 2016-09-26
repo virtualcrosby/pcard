@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-09-26 18:24:15">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>christopher.campbell</sys_created_by>
+        <sys_created_on>2016-06-14 16:05:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d52388913c02600b9c4b8b12244b04a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pCard Administrator Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PCard" source="x_ngang_pcard">382269b013371200b9c4b8b12244b0f2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PCard">382269b013371200b9c4b8b12244b0f2</sys_scope>
+        <sys_update_name>sys_portal_page_2d52388913c02600b9c4b8b12244b04a</sys_update_name>
+        <sys_updated_by>christopher.campbell</sys_updated_by>
+        <sys_updated_on>2016-06-14 16:05:23</sys_updated_on>
+        <title>pCard Administrator Dashboard</title>
+        <user/>
+        <view>pcard_admin_dashboard</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="pCard Administrator Dashboard">2d52388913c02600b9c4b8b12244b04a</page>
+                <summary/>
+                <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                <sys_id>c3986cd94f142a00e51c9a211310c7c8</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c3986cd94f142a00e51c9a211310c7c8</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>03986cd94f142a00e51c9a211310c7c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c3986cd94f142a00e51c9a211310c7c8</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>07986cd94f142a00e51c9a211310c7c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>aa91503013cce200b9c4b8b12244b062</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c3986cd94f142a00e51c9a211310c7c8</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>4f986cd94f142a00e51c9a211310c7c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c3986cd94f142a00e51c9a211310c7c8</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>87986cd94f142a00e51c9a211310c7c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>2d52388913c02600b9c4b8b12244b04a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c3986cd94f142a00e51c9a211310c7c8</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>8b986cd94f142a00e51c9a211310c7c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c3986cd94f142a00e51c9a211310c7c8</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>c3986cd94f142a00e51c9a211310c7c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>Billing officials by Fund</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c3986cd94f142a00e51c9a211310c7c8</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>c7986cd94f142a00e51c9a211310c7c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="pCard Administrator Dashboard">2d52388913c02600b9c4b8b12244b04a</page>
+                <summary/>
+                <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                <sys_id>c7986cd94f142a00e51c9a211310c731</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c7986cd94f142a00e51c9a211310c731</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>0b986cd94f142a00e51c9a211310c7c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c7986cd94f142a00e51c9a211310c731</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>0f986cd94f142a00e51c9a211310c7c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>fa11503013cce200b9c4b8b12244b073</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c7986cd94f142a00e51c9a211310c731</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>47986cd94f142a00e51c9a211310c7c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>line_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c7986cd94f142a00e51c9a211310c731</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>83986cd94f142a00e51c9a211310c7c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c7986cd94f142a00e51c9a211310c731</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>8f986cd94f142a00e51c9a211310c7c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>2d52388913c02600b9c4b8b12244b04a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c7986cd94f142a00e51c9a211310c731</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>cb986cd94f142a00e51c9a211310c7c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>Orders by Card</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">c7986cd94f142a00e51c9a211310c731</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>cf986cd94f142a00e51c9a211310c7c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>1</offset>
+                <page display_value="pCard Administrator Dashboard">2d52388913c02600b9c4b8b12244b04a</page>
+                <summary/>
+                <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                <sys_id>cb986cd94f142a00e51c9a211310c7c9</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cb986cd94f142a00e51c9a211310c7c9</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>0b986cd94f142a00e51c9a211310c7ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cb986cd94f142a00e51c9a211310c7c9</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>0f986cd94f142a00e51c9a211310c7c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>4dc7d0f013cce200b9c4b8b12244b0b4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cb986cd94f142a00e51c9a211310c7c9</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>47986cd94f142a00e51c9a211310c7ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cb986cd94f142a00e51c9a211310c7c9</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>83986cd94f142a00e51c9a211310c7ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cb986cd94f142a00e51c9a211310c7c9</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>8f986cd94f142a00e51c9a211310c7ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>2d52388913c02600b9c4b8b12244b04a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cb986cd94f142a00e51c9a211310c7c9</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>cb986cd94f142a00e51c9a211310c7ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>Purchase Cards by Cardholder</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cb986cd94f142a00e51c9a211310c7c9</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>cf986cd94f142a00e51c9a211310c7c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="pCard Administrator Dashboard">2d52388913c02600b9c4b8b12244b04a</page>
+                <summary/>
+                <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                <sys_id>cf986cd94f142a00e51c9a211310c72f</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cf986cd94f142a00e51c9a211310c72f</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>03986cd94f142a00e51c9a211310c730</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>1892ec7413cce200b9c4b8b12244b0c1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cf986cd94f142a00e51c9a211310c72f</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>0f986cd94f142a00e51c9a211310c730</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cf986cd94f142a00e51c9a211310c72f</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>4b986cd94f142a00e51c9a211310c730</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cf986cd94f142a00e51c9a211310c72f</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>83986cd94f142a00e51c9a211310c731</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>2d52388913c02600b9c4b8b12244b04a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cf986cd94f142a00e51c9a211310c72f</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>87986cd94f142a00e51c9a211310c730</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cf986cd94f142a00e51c9a211310c72f</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>c3986cd94f142a00e51c9a211310c730</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">cf986cd94f142a00e51c9a211310c72f</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>cf986cd94f142a00e51c9a211310c730</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>Fund Balances</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="pCard Administrator Dashboard">2d52388913c02600b9c4b8b12244b04a</page>
+                <summary/>
+                <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                <sys_id>f6986cd94f142a00e51c9a211310c72e</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">f6986cd94f142a00e51c9a211310c72e</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>36986cd94f142a00e51c9a211310c72f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">f6986cd94f142a00e51c9a211310c72e</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>3a986cd94f142a00e51c9a211310c72e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>efd330c913c02600b9c4b8b12244b0ea</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">f6986cd94f142a00e51c9a211310c72e</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>72986cd94f142a00e51c9a211310c72f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">f6986cd94f142a00e51c9a211310c72e</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>8b986cd94f142a00e51c9a211310c72f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>2d52388913c02600b9c4b8b12244b04a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">f6986cd94f142a00e51c9a211310c72e</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>be986cd94f142a00e51c9a211310c72e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">f6986cd94f142a00e51c9a211310c72e</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>c7986cd94f142a00e51c9a211310c72f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>Expired Training</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-27 13:17:04">f6986cd94f142a00e51c9a211310c72e</portal_section>
+                        <sys_created_by>ADRIENNE.BUSHROD</sys_created_by>
+                        <sys_created_on>2016-06-27 20:17:04</sys_created_on>
+                        <sys_id>fa986cd94f142a00e51c9a211310c72e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>ADRIENNE.BUSHROD</sys_updated_by>
+                        <sys_updated_on>2016-06-27 20:17:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

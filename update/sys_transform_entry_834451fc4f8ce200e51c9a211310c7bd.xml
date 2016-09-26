@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="PCard Statment to Transaction Map">bebf417013002600b9c4b8b12244b053</map>
+        <reference_value_field/>
+        <source_field>u_companynumber</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_ngang_pcard_pcard_statement_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>brian.crosby</sys_created_by>
+        <sys_created_on>2016-06-13 23:55:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>834451fc4f8ce200e51c9a211310c7bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_companynumber</sys_name>
+        <sys_package display_value="PCard" source="x_ngang_pcard">382269b013371200b9c4b8b12244b0f2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PCard">382269b013371200b9c4b8b12244b0f2</sys_scope>
+        <sys_update_name>sys_transform_entry_834451fc4f8ce200e51c9a211310c7bd</sys_update_name>
+        <sys_updated_by>brian.crosby</sys_updated_by>
+        <sys_updated_on>2016-06-13 23:55:17</sys_updated_on>
+        <target_field>company_number</target_field>
+        <target_table>x_ngang_pcard_transactions</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

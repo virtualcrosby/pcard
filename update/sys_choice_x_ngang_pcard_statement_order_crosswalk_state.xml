@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_ngang_pcard_statement_order_crosswalk" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_ngang_pcard_statement_order_crosswalk</name>
+            <sequence>0</sequence>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-15 14:59:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9dcc215113482600b9c4b8b12244b0fc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-15 15:00:08</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Confirmed</label>
+            <language>en</language>
+            <name>x_ngang_pcard_statement_order_crosswalk</name>
+            <sequence>1</sequence>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-15 14:59:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5bc215113482600b9c4b8b12244b04e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-15 15:00:08</sys_updated_on>
+            <value>confirmed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_ngang_pcard_statement_order_crosswalk</name>
+            <sequence>2</sequence>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-15 14:58:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60bc215113482600b9c4b8b12244b033</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-15 15:00:08</sys_updated_on>
+            <value>new</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_ngang_pcard_statement_order_crosswalk</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-15 14:58:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7dbced1113482600b9c4b8b12244b09a</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="PCard" source="x_ngang_pcard">382269b013371200b9c4b8b12244b0f2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PCard">382269b013371200b9c4b8b12244b0f2</sys_scope>
+            <sys_update_name>sys_choice_x_ngang_pcard_statement_order_crosswalk_state</sys_update_name>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-15 14:59:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

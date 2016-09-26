@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Messages" max_length="40" name="x_ngang_pcard_messages" sizeclass="2" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Message" max_length="250" name="message" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Notification Type" max_length="40" name="notification_type" type="choice">
+            <choice>
+                <element label="At Login" value="at_login"/>
+                <element label="Dashboard" value="dashboard"/>
+                <element label="Email" value="email"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Target User" max_length="32" name="target_user" reference="sys_user" type="reference"/>
+    </element>
+</database>

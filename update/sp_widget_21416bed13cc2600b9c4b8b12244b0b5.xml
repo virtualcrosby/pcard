@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function requestedItemsController($scope, $rootScope, $interpolate, $window) {
+  
+  $scope.$watch("data.conversation_title", function() {
+    $rootScope.$broadcast('sp.conversation_title.changed', $scope.data.conversation_title);
+  })
+
+  $scope.onClick = function($event, item, url, action) {
+    $event.stopPropagation();
+    $event.preventDefault();
+
+    if (url) {
+      var link = $interpolate(url)(item);
+      $window.location = link;
+    } else {
+      var eventObj = {};
+      eventObj.url = url;
+      eventObj.table = $scope.data.table;
+      eventObj.record = item;
+      eventObj.rectangle_id = $scope.data.sys_id;
+      eventObj.action = action;
+      $rootScope.$broadcast('$sp.list.click', eventObj);
+    }
+  }
+	
+	$scope.toggle = function($event, item) {
+		item.expand = !item.expand;
+	}
+	
+	if ($scope.data.list.length == 1)
+		$scope.data.list[0].expand = true;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.requested-items-flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+/**/
+.stage-on IMG, .stage-off IMG{ margin-right:6px; }
+.stage-on, .stage-off { margin-bottom: 6px; }
+.stage-on{font-weight:700;}
+.stage-off{/*color:#999;*/ font-weight:300;}
+
+.l-h-40 {
+  line-height: 40px;
+}
+.list-action {
+  display:block;
+  padding:0 6px;
+  cursor: pointer;
+}
+.list-action:hover {
+  background-color: #fff;
+}</css>
+        <data_table>sp_instance_vlist</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,order,color,display_field,filter,table,sp_page,order_direction,maximum_entries,order_by</field_list>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>WAR</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[// populate the 'data' variable provided by caller
+(function() {
+	var gr = new GlideRecord("x_ngang_war_certs_war"); // does ACL checking for us
+	gr.addQuery("war", $sp.getParameter("sys_id"));
+
+	options.secondary_fields = options.secondary_fields || "";
+	options.secondary_fields = options.secondary_fields.split(",");
+
+	if (options.order_direction == "asc")
+		gr.orderBy(options.order_by);
+	else
+		gr.orderByDesc(options.order_by);
+
+	if (options.maximum_entries > 0)
+		gr.setLimit(options.maximum_entries);
+	gr.query();
+
+	data.actions = [];
+	data.list = [];
+	while (gr.next()) {
+      	if (!gr.canRead())
+      		continue;
+      
+		if (gr.getRowCount() == 1)
+			data.conversation_title = gr.war.getDisplayValue();
+
+		var record = {};
+
+		record.sys_id = gr.sys_id.getDisplayValue();
+		if (options.image_field) {
+			record.image_field = gr.getDisplayValue(options.image_field);
+			if (!record.image_field)
+				record.image_field = "/noimage.pngx";
+		}
+		if (options.display_field)
+			record.display_field = gr.getDisplayValue(options.display_field);
+
+		record.secondary_fields = [];
+		options.secondary_fields.forEach(function(f) {
+			record.secondary_fields.push(getField(gr, f));
+		});
+
+		if (options.sp_page_dv)
+			record.url = "?id="+options.sp_page_dv+"&table="+options.table+"&sys_id="+record.sys_id+"&view=sp";
+		else
+			record.url = "";
+
+		record.stage = gr.getValue("status");
+
+		// get appropriate Stage choices for this requested item
+		var cl = new GlideChoiceList();
+		GlideController.putGlobal("answer", cl);
+		GlideController.putGlobal("current", gr);
+		sc_req_item_stageGetChoices();
+		record.cl = JSON.parse(cl.toJSON());
+
+		data.list.push(record);
+	}
+
+	if (gr.getRowCount() > 1)
+		data.conversation_title = gr.war.getDisplayValue() + " - " + gr.getRowCount() + " items";
+
+	function getField(gr, name) {
+		var f = {};
+		f.display_value = gr.getDisplayValue(name);
+		f.value = gr.getValue(name);
+		var ge = gr.getElement(name);
+		f.type = ge.getED().getInternalType()
+		f.label = ge.getLabel();
+		return f;
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>brian.crosby</sys_created_by>
+        <sys_created_on>2016-06-16 18:06:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>21416bed13cc2600b9c4b8b12244b0b5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>WAR</sys_name>
+        <sys_package display_value="PCard" source="x_ngang_pcard">382269b013371200b9c4b8b12244b0f2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PCard">382269b013371200b9c4b8b12244b0f2</sys_scope>
+        <sys_update_name>sp_widget_21416bed13cc2600b9c4b8b12244b0b5</sys_update_name>
+        <sys_updated_by>brian.crosby</sys_updated_by>
+        <sys_updated_on>2016-06-16 18:13:27</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-{{c.options.color}} b" ng-if="always_show || data.list.length">
+  <div class="panel-heading">
+    <h4 class="panel-title">{{c.options.title}}</h4>
+  </div>
+  <div class="list-group">
+    <div ng-repeat="item in data.list" class="block list-group-item" >
+      <a ng-click="onClick($event, item, item.url, {})" href="javascript:void(0)" >
+        <span ng-if="data.image_field" class="pull-left thumb-sm avatar m-r">
+          <img ng-src="{{item.image_field}}" alt="..." class="img-circle">
+        </span>
+        <div >
+          <div ng-class="{'l-h-40': !item.secondary_fields.length}">{{item.display_field}}</div>
+          <small class="block text-muted m-b-xs" ng-repeat="f in item.secondary_fields">
+            <span ng-if="!$first"> • </span>
+            <span ng-switch="f.type" title="{{::f.label}}">
+              <span ng-switch-when="glide_date"><sn-time-ago timestamp="::f.value" /></span>
+              <span ng-switch-when="glide_date_time"><sn-time-ago timestamp="::f.value" /></span>
+              <span ng-switch-default="">{{f.display_value}}</span>
+            </span>
+          </small>
+        </div>
+      </a>
+
+      <div ng-if="item.cl.length > 0" ng-show="!item.expand" class="requested-items-flex-container">
+        <div class="flex-item" ng-click="toggle($event, item)"><img src="images/filter_hide16.gifx" /></div>
+        <div class="flex-item">
+          <span ng-repeat="stage in item.cl">
+            <span ng-if="stage.value == item.stage">
+              <img src="/images/sp-icon-check-circle.png" data-toggle="tooltip" data-placement="top" title="{{stage.label}}" />
+            </span>
+            <span ng-if="stage.value != item.stage">
+              <img src="/images/sp-icon-empty-circle.png" data-toggle="tooltip" data-placement="top" title="{{stage.label}}" />
+            </span>
+          </span> 
+        </div> 
+      </div>
+
+      <div ng-if="item.cl.length > 0" ng-show="item.expand" class="requested-items-flex-container">
+        <div class="flex-item" ng-click="toggle($event, item)"><img src="images/filter_reveal16.gifx" /></div>
+        <div class="flex-item">
+          <div ng-repeat="stage in item.cl">
+            <div ng-if="stage.value == item.stage" class="stage-on">
+              <img src="/images/sp-icon-check-circle.png" />
+              {{stage.label}}
+            </div>
+            <div ng-if="stage.value != item.stage" class="stage-off text-muted">
+              <img src="/images/sp-icon-empty-circle.png" />
+              {{stage.label}}
+            </div>
+          </div>
+        </div> 
+      </div>
+
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

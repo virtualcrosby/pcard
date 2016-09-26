@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Statement Order Crosswalk" max_length="40" name="x_ngang_pcard_statement_order_crosswalk" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Approved Amount" max_length="40" name="approved_amount" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Input Type" max_length="40" name="input_type" type="choice">
+            <choice>
+                <element label="Suggested" sequence="0" value="suggested"/>
+                <element label="User" sequence="1" value="user"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:global.getNextObjNumberPadded();" display="true" label="Modification Number" max_length="25" name="modification_number" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Order Line Number" max_length="32" name="order_line_number" reference="x_ngang_pcard_order_lines" reference_qual="javascript:new BackfillOrderLineNumber().BackfillOrderLineNumber()" type="reference" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Order Number" max_length="32" name="order_number" reference="x_ngang_pcard_orders" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Reconciliation" max_length="32" name="reconciliation" reference="x_ngang_pcard_reconciliation" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Approved" sequence="0" value="approved"/>
+                <element label="Confirmed" sequence="1" value="confirmed"/>
+                <element label="New" sequence="2" value="new"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Statement ID" max_length="32" name="statement_id" reference="x_ngang_pcard_statement" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Transaction Number" max_length="32" name="transaction_number" reference="x_ngang_pcard_transactions" reference_qual="javascript:new BackfillTransactionNumber().BackfillTransactionNumber()" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="transaction_number"/>
+        </index>
+        <index name="index2">
+            <element name="order_number"/>
+        </index>
+        <index name="index3">
+            <element name="order_line_number"/>
+        </index>
+        <index name="index4">
+            <element name="statement_id"/>
+        </index>
+        <index name="index5">
+            <element name="reconciliation"/>
+        </index>
+    </element>
+</database>

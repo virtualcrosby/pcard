@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Orders" max_length="40" name="x_ngang_pcard_orders" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Card Account Number" max_length="32" name="card_account_number" reference="x_ngang_pcard_purchase_cards" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Order Number" max_length="50" name="order_number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Vendor" max_length="32" name="vendor" reference="core_company" reference_qual="vendor=true^notesLIKESF^EQ" reference_qual_condition="vendor=true^notesLIKESF^EQ" type="reference"/>
+        <index name="index">
+            <element name="vendor"/>
+        </index>
+        <index name="index2">
+            <element name="card_account_number"/>
+        </index>
+    </element>
+</database>
